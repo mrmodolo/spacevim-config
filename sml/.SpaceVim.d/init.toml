@@ -1,0 +1,28 @@
+#=============================================================================
+# dark_powered.toml --- dark powered configuration example for SpaceVim
+# Copyright (c) 2016-2017 Wang Shidong & Contributors
+# Author: Wang Shidong < wsdjeg at 163.com >
+# URL: https://spacevim.org
+# License: GPLv3
+#=============================================================================
+
+# All SpaceVim option below [option] section
+[options]
+  force_global_config = true
+
+[[layers]]
+  name = "tmux"
+
+## custom plugins {{{
+  [[custom_plugins]]
+    name = 'Shougo/vimshell.vim'
+    merged = 0
+
+  [[custom_plugins]]
+    name = 'jez/vim-better-sml'
+    merged = 0
+
+  [[custom_plugins]]
+    name = 'benmills/vimux'
+    merged = 0
+# }}}

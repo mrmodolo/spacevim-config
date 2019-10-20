@@ -1,0 +1,10 @@
+{
+  "languageserver": {
+      "metals": {
+            "command": "/home/modolo/bin/metals-vim",
+            "rootPatterns": ["build.sbt"],
+            "filetypes": ["scala", "sbt"]
+          }
+    }
+}
+
